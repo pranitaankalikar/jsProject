@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(16, 193, 206);
+}
+
+div {
+    height: 400px;
+    width: 400px;
+    overflow: hidden; /* it will hide the remaining which is not coming under height and width*/
+}
+
+img {
+ transform-origin: center center; 
+ object-fit: cover; 
+ height: 100%;
+ width: 100%;
+}
