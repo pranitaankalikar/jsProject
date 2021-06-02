@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body.dark {
+    background-color: black;
+    color: white;
+    transition: 1000ms;
+}
+
+#toggle {
+    position: fixed;
+    top: 5%;
+    right: 3%;
+    padding: 2rem;
+    border-radius: 50%;
+    background-color:black;
+}
+
